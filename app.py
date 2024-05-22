@@ -133,7 +133,7 @@ def prueba():
         
         previous = label_tag
 
-    return  f'Resultados {entities}.',201
+    return entities
 model_ner = spacy.load('./output/model-best/')
 
 def cleanText(txt):
