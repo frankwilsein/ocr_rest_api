@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 flask
 numpy
 opencv-python
@@ -5,4 +6,13 @@ imutils
 scipy
 pandas
 pytesseract
+=======
+flask
+numpy
+opencv-python
+imutils
+scipy
+pandas
+pytesseract
+>>>>>>> 408f75aa077f347a7d2f282bcd393cd1cfb37f8c
 spacy
