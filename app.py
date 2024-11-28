@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+""" <<<<<<< HEAD """
 from flask import Flask, request, flash,redirect,url_for,jsonify
 from werkzeug.utils import secure_filename
 import os
@@ -242,7 +242,7 @@ class groupgen():
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-=======
+""" ======= """
 from flask import Flask, request
 import os
 
@@ -432,4 +432,5 @@ class groupgen():
             self.text = text
             return self.id
         
->>>>>>> 408f75aa077f347a7d2f282bcd393cd1cfb37f8c
+""" >>>>>>> 408f75aa077f347a7d2f282bcd393cd1cfb37f8c
+ """
